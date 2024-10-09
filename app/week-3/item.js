@@ -3,7 +3,7 @@ export default function Item({itemObj}){
     let {name,quantity,category} = itemObj;
 
     return(
-        <div class="flex-1 justify-center align-middle bg-slate-500">
+        <div class="flex-1 flex-col justify-center align-middle bg-slate-500 p-10">
             <div>
                 <p className="font-extrabold uppercase text-center">{name}</p>
             </div>
