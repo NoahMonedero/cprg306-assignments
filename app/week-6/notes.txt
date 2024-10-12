@@ -1,0 +1,42 @@
+Arrays
+
+const arr = [];
+
+arr[0] = 1;
+arr[1] = 2;
+arr[2] = 3;
+
+const arr2 = [3,4,5];
+
+//can access using index. Starting from 0.
+
+//Map function - iterates through all the elements in the array and applies the provided function
+const arr3 = arr2.map((value) => value*2); //returns [6,8,10]
+//arr2 doesnt change.
+arr2 is [3,4,5]
+arr3 is [6,8,10]
+
+//Arr4 is pointing to the same array as arr3. So any changes to arr4 will apply to arr3.
+const arr4  = arr3
+arr4[0] = 100;
+//arr3[0] = 100;
+
+//filter function - returns a new array with all elements that pass the test implemented by the provided
+funtion.
+
+arr5; //[120,28,30]
+const arr6 = arr5.filter((value) => value > 100) ; //[120] since its the only value above 100.
+
+//reduce function = applies a function against an accumulator and each element in the array to reduce its
+to a single value.
+arr5; [120,28,30]
+const sum = arr5.reduce((acc,value) => acc + value, 0); //178
+
+//sort function - sorts the elements by modifying the original array.
+
+const arr7 = [3,1,5,2,4,10];
+arr7.sort(); // returns => [1,10,2,3,4,5]. This is because no function was provided and so its sorted alphabetically
+
+arr7.sort((a,b) => a - b); // [1,2,3,4,5,10] if a - b is negative then a comes before b. and if its equal then you know what happens.
+
+

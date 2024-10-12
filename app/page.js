@@ -14,10 +14,14 @@ export default function Home() {
           <Link className={linkStyle} href="week-3">Week 3 Assignment</Link>
         </li>
         <li>
-          <Link className={linkStyle} href="./week-4/functions">Week 4 function</Link>
+          <Link className={linkStyle} href="week-4">Week 4 Assignment</Link>
         </li>
         <li>
-          <Link className={linkStyle} href="./week-4/counter">Week 4 counter</Link>
+        <Link className={linkStyle} href="week-4/notes/functions">Week 4 Assignment</Link>
+
+        </li>
+        <li>
+          <Link className={linkStyle} href="week-6">Week 6</Link>
         </li>
       </ul>
     </main>
