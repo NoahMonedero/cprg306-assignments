@@ -1,5 +1,3 @@
-
-
 export default function Counter({currentCount, incrementCountFunction, resetCountFunction}){
 
     let buttonColorStyle;

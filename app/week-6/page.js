@@ -1,5 +1,5 @@
 "use client";
-export default function page(){
+export default function Page(){
 
     const dogs = [
         {id:1,name: 'Dog', breed: 'Golden Retriever', imageUrl:'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=2'},

@@ -25,11 +25,11 @@ export default function NewItem(){
                     </div>
                     <div className="flex gap-10 ">
                         <div>
-                            <button onClick={incQuantity} className={ currentQuantity < 20 ? buttonEnable: buttonDisable}> + </button>
-                        </div>
-                        <div>
                             <button onClick={decQuantity} className={currentQuantity > 1 ? buttonEnable: buttonDisable}> - </button>
                         </div>   
+                        <div>
+                            <button onClick={incQuantity} className={ currentQuantity < 20 ? buttonEnable: buttonDisable}> + </button>
+                        </div>
                     </div>
                 </div>
             </div>
