@@ -38,7 +38,7 @@ export default function Page(){
                 <ItemsList itemsArray={items} onItemSelect={handleItemSelect} />
             </div>
             <div className="mt-5">
-                {selectedIngredient != '' && <Meal ingredient={selectedIngredient} meal={selectedMeal} handleMealSelect={handleMealSelect}/>}
+                {selectedIngredient != '' && <Meal ingredient={selectedIngredient} meal={selectedMeal}/>}
             </div>
         </main>
     );
